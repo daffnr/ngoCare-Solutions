@@ -1,0 +1,192 @@
+[
+  {
+    "id": "1",
+    "name": "Kursi Roda Manual Premium",
+    "slug": "kursi-roda-manual-premium",
+    "description": "Kursi roda manual dengan desain ergonomis dan material berkualitas tinggi. Dilengkapi dengan rem tangan yang mudah dioperasikan, sandaran yang dapat disesuaikan, dan roda belakang yang dapat dilepas untuk transportasi yang mudah.",
+    "shortDescription": "Kursi roda manual premium dengan desain ergonomis dan material berkualitas tinggi.",
+    "price": 2500000,
+    "originalPrice": 3000000,
+    "image": "/images/products/kursi-roda-1.jpeg",
+    "images": [
+      "/images/products/kursi-roda-1.jpeg",
+      "/images/products/kursi-roda-2.jpeg",
+      "/images/products/kursi-roda-3.jpeg"
+    ],
+    "category": "Mobilitas",
+    "specifications": {
+      "Berat Maksimal": "120 kg",
+      "Berat Produk": "15 kg",
+      "Lebar Dudukan": "40 cm",
+      "Tinggi Sandaran": "40 cm",
+      "Material": "Aluminium + Nylon",
+      "Warna": "Biru, Merah, Hitam"
+    },
+    "features": [
+      "Rem tangan yang mudah dioperasikan",
+      "Sandaran yang dapat disesuaikan",
+      "Roda belakang yang dapat dilepas",
+      "Material aluminium ringan dan kuat",
+      "Dilengkapi dengan footrest"
+    ],
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "2",
+    "name": "Tensimeter Digital Omron",
+    "slug": "tensimeter-digital-omron",
+    "description": "Tensimeter digital terpercaya dengan teknologi IntelliSense yang memberikan pengukuran tekanan darah yang akurat. Mudah digunakan dengan layar LCD yang besar dan dapat menyimpan hingga 60 data pengukuran.",
+    "shortDescription": "Tensimeter digital terpercaya dengan teknologi IntelliSense untuk pengukuran yang akurat.",
+    "price": 450000,
+    "originalPrice": 550000,
+    "image": "/images/products/tensimeter-1.jpeg",
+    "images": [
+      "/images/products/tensimeter-1.jpeg",
+      "/images/products/tensimeter-2.jpeg"
+    ],
+    "category": "Diagnostik",
+    "specifications": {
+      "Tipe": "Digital",
+      "Merek": "Omron",
+      "Akurasi": "±3 mmHg",
+      "Memori": "60 data",
+      "Power": "4 x AAA",
+      "Garansi": "2 tahun"
+    },
+    "features": [
+      "Teknologi IntelliSense",
+      "Layar LCD besar dan jelas",
+      "Penyimpanan 60 data",
+      "Indikator hipertensi",
+      "Deteksi aritmia"
+    ],
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "3",
+    "name": "Walker 4 Roda dengan Kursi",
+    "slug": "walker-4-roda-dengan-kursi",
+    "description": "Walker 4 roda dengan kursi yang dapat dilipat untuk kenyamanan berjalan dan istirahat. Dilengkapi dengan rem parkir, keranjang penyimpanan, dan tinggi yang dapat disesuaikan.",
+    "shortDescription": "Walker 4 roda dengan kursi yang dapat dilipat untuk kenyamanan berjalan dan istirahat.",
+    "price": 1800000,
+    "originalPrice": 2200000,
+    "image": "/images/products/walker-1.jpeg",
+    "images": [
+      "/images/products/walker-1.jpeg",
+      "/images/products/walker-2.jpeg"
+    ],
+    "category": "Mobilitas",
+    "specifications": {
+      "Berat Maksimal": "100 kg",
+      "Berat Produk": "8 kg",
+      "Tinggi": "80-95 cm (dapat disesuaikan)",
+      "Lebar": "60 cm",
+      "Material": "Aluminium",
+      "Warna": "Abu-abu, Biru"
+    },
+    "features": [
+      "4 roda dengan rem parkir",
+      "Kursi yang dapat dilipat",
+      "Keranjang penyimpanan",
+      "Tinggi dapat disesuaikan",
+      "Mudah dilipat untuk transportasi"
+    ],
+    "inStock": true,
+    "isFeatured": true
+  },
+  {
+    "id": "4",
+    "name": "Oksimeter Pulse Digital",
+    "slug": "oksimeter-pulse-digital",
+    "description": "Oksimeter pulse digital portabel untuk mengukur kadar oksigen dalam darah dan denyut nadi. Desain ringan dan mudah dibawa kemana saja. Dilengkapi dengan layar OLED yang jelas dan baterai tahan lama.",
+    "shortDescription": "Oksimeter pulse digital portabel untuk mengukur kadar oksigen dalam darah dan denyut nadi.",
+    "price": 350000,
+    "image": "/images/products/oksimeter-1.jpeg",
+    "images": [
+      "/images/products/oksimeter-1.jpeg",
+      "/images/products/oksimeter-2.jpeg"
+    ],
+    "category": "Diagnostik",
+    "specifications": {
+      "Tipe": "Digital",
+      "Akurasi SpO2": "±2%",
+      "Akurasi Pulse": "±2 bpm",
+      "Layar": "OLED",
+      "Power": "2 x AAA",
+      "Berat": "50 gram"
+    },
+    "features": [
+      "Pengukuran SpO2 dan pulse rate",
+      "Layar OLED yang jelas",
+      "Desain ringan dan portabel",
+      "Baterai tahan lama",
+      "Auto power off"
+    ],
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "5",
+    "name": "Tongkat Penyangga 4 Kaki",
+    "slug": "tongkat-penyangga-4-kaki",
+    "description": "Tongkat penyangga 4 kaki dengan desain yang stabil dan aman. Dilengkapi dengan karet anti slip di setiap kaki untuk memberikan stabilitas maksimal saat berjalan.",
+    "shortDescription": "Tongkat penyangga 4 kaki dengan desain yang stabil dan aman untuk berjalan.",
+    "price": 450000,
+    "image": "/images/products/tongkat-1.jpeg",
+    "images": [
+      "/images/products/tongkat-1.jpeg"
+    ],
+    "category": "Mobilitas",
+    "specifications": {
+      "Tipe": "4 kaki",
+      "Tinggi": "80-100 cm (dapat disesuaikan)",
+      "Berat": "800 gram",
+      "Material": "Aluminium",
+      "Karet": "Anti slip",
+      "Warna": "Hitam, Abu-abu"
+    },
+    "features": [
+      "4 kaki untuk stabilitas maksimal",
+      "Tinggi dapat disesuaikan",
+      "Karet anti slip",
+      "Material aluminium ringan",
+      "Grip yang nyaman"
+    ],
+    "inStock": true,
+    "isFeatured": false
+  },
+  {
+    "id": "6",
+    "name": "Termometer Digital Infrared",
+    "slug": "termometer-digital-infrared",
+    "description": "Termometer digital infrared tanpa kontak untuk mengukur suhu tubuh dengan cepat dan akurat. Dilengkapi dengan layar LCD yang besar dan dapat mengukur suhu dalam 1 detik.",
+    "shortDescription": "Termometer digital infrared tanpa kontak untuk mengukur suhu tubuh dengan cepat dan akurat.",
+    "price": 280000,
+    "image": "/images/products/termometer-1.jpeg",
+    "images": [
+      "/images/products/termometer-1.jpeg",
+      "/images/products/termometer-2.jpeg"
+    ],
+    "category": "Diagnostik",
+    "specifications": {
+      "Tipe": "Infrared",
+      "Akurasi": "±0.2°C",
+      "Jarak Pengukuran": "3-5 cm",
+      "Waktu Pengukuran": "1 detik",
+      "Memori": "32 data",
+      "Power": "2 x AAA"
+    },
+    "features": [
+      "Pengukuran tanpa kontak",
+      "Waktu pengukuran 1 detik",
+      "Layar LCD besar",
+      "Memori 32 data",
+      "Indikator demam"
+    ],
+    "inStock": true,
+    "isFeatured": true
+  }
+]
+

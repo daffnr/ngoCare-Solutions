@@ -1,0 +1,17 @@
+# Placeholder Images
+
+This directory contains placeholder images for products. In a real implementation, you would replace these with actual product images.
+
+For now, you can use placeholder services like:
+- https://via.placeholder.com/400x300/2563eb/ffffff?text=Product+Image
+- https://picsum.photos/400/300
+- Or upload actual product images
+
+Product images needed:
+- kursi-roda-1.jpg, kursi-roda-2.jpg, kursi-roda-3.jpg
+- tensimeter-1.jpg, tensimeter-2.jpg
+- walker-1.jpg, walker-2.jpg
+- oksimeter-1.jpg, oksimeter-2.jpg
+- tongkat-1.jpg
+- termometer-1.jpg, termometer-2.jpg
+

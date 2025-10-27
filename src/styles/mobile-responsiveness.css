@@ -1,0 +1,155 @@
+/* ===========================================
+   MOBILE RESPONSIVENESS - Additional Adjustments
+   =========================================== */
+
+/* Extra Small Devices (320px and below) */
+@media (max-width: 320px) {
+  body {
+    font-size: 0.75rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  
+  h2 {
+    font-size: 1.25rem !important;
+  }
+  
+  h3 {
+    font-size: 1rem !important;
+  }
+  
+  .container {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Small Devices (640px and below) */
+@media (max-width: 640px) {
+  /* Padding adjustments */
+  section {
+    padding: 2rem 0 !important;
+  }
+  
+  /* Grid adjustments */
+  .grid,
+  [class*="grid"] {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+  
+  /* Flex column on mobile */
+  .flex-row-mobile {
+    flex-direction: column;
+  }
+  
+  /* Hide certain elements on mobile */
+  .hide-on-mobile {
+    display: none !important;
+  }
+  
+  /* Show only on mobile */
+  .show-on-mobile {
+    display: block !important;
+  }
+  
+  /* Full width buttons on mobile */
+  button,
+  .btn {
+    width: 100%;
+  }
+  
+  /* Image adjustments */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Reduce padding on mobile */
+  [class*="padding"] {
+    padding: 1rem !important;
+  }
+}
+
+/* Medium Devices (768px and below) */
+@media (max-width: 768px) {
+  /* Typography scaling */
+  p {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+  
+  /* Reduce gaps on tablet */
+  .gap-8,
+  .gap-12,
+  .gap-16 {
+    gap: 1.5rem !important;
+  }
+  
+  /* Stack columns on medium devices */
+  [class*="col-"],
+  [class*="grid-cols-"] {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Center align text on tablets */
+  .text-center-tablet {
+    text-align: center;
+  }
+}
+
+/* Prevent horizontal scroll */
+@media (max-width: 1024px) {
+  * {
+    max-width: 100%;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  main {
+    width: 100%;
+  }
+}
+
+/* Touch-friendly interactions */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects on touch devices */
+  *:hover {
+    transform: none !important;
+  }
+  
+  /* Larger touch targets */
+  a,
+  button,
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Prevent text selection on buttons */
+  button {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+/* Landscape mobile */
+@media (max-width: 896px) and (orientation: landscape) {
+  .hero-section {
+    min-height: auto;
+    padding: 1.5rem 0;
+  }
+  
+  .hero-content {
+    gap: 1rem;
+  }
+  
+  /* Reduce vertical spacing on landscape */
+  section {
+    padding: 1.5rem 0 !important;
+  }
+}
+

@@ -1,0 +1,223 @@
+/* ===========================================
+   NAVBAR COMPONENT STYLES
+   =========================================== */
+
+.navbar {
+  background-color: var(--bg-white);
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.navbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .navbar-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-container {
+    padding: 0 2rem;
+  }
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+/* Logo */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-lg);
+  display: block;
+  object-fit: contain;
+}
+
+.logo-icon-text {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.logo-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+/* Desktop Navigation */
+.navbar-nav {
+  display: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+  }
+}
+
+.nav-item {
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: color var(--transition-normal) ease;
+}
+
+.nav-item:hover {
+  color: var(--primary-color);
+}
+
+/* Contact Info (Desktop) */
+.navbar-contact {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .navbar-contact {
+    display: flex;
+  }
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-tertiary);
+}
+
+.contact-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Mobile Menu Button */
+.navbar-menu-button {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .navbar-menu-button {
+    display: none;
+  }
+}
+
+.menu-toggle-btn {
+  color: var(--text-secondary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color var(--transition-normal) ease;
+}
+
+.menu-toggle-btn:hover {
+  color: var(--primary-color);
+}
+
+.menu-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Mobile Navigation */
+.navbar-mobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+.mobile-nav-content {
+  padding: 0.5rem 0 0.75rem;
+  background-color: var(--bg-gray-50);
+}
+
+.mobile-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.mobile-nav-item {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all var(--transition-normal) ease;
+  border-radius: var(--radius-md);
+}
+
+.mobile-nav-item:hover {
+  color: var(--primary-color);
+  background-color: var(--primary-color);
+  background-color: rgba(37, 99, 235, 0.05);
+}
+
+.mobile-contact {
+  padding: 1rem 0 0.75rem;
+  border-top: 1px solid var(--secondary-dark);
+}
+
+.mobile-contact-content {
+  padding: 0 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-tertiary);
+}
+
+.mobile-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mobile-contact-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Mobile Navbar Adjustments */
+@media (max-width: 640px) {
+  .navbar-content {
+    height: 3.5rem;
+  }
+  
+  .logo-text {
+    font-size: 0.875rem;
+  }
+  
+  .logo-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .logo-icon-text {
+    font-size: 1rem;
+  }
+}
+

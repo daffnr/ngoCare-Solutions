@@ -1,0 +1,49 @@
+/* Loading Screen Styles */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+}
+
+.loading-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Hide Next.js Dev Overlay */
+#__next-build-watcher,
+#__next-dev-indicator,
+#__next-dev-overlay {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Remove Next.js notifications */
+[data-nextjs-toast],
+[data-nextjs-dialog],
+.nextjs-toast-container,
+.nextjs-overlay {
+  display: none !important;
+}
+
