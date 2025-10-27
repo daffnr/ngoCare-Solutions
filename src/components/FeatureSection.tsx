@@ -108,7 +108,7 @@ const FeatureSection = () => {
             </p>
             <div className="feature-cta-buttons">
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/62895325378235"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="feature-cta-button feature-cta-button-primary"

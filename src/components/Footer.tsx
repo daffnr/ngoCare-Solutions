@@ -12,12 +12,12 @@ const Footer = () => {
             <div className="footer-logo">
               <img 
                 src="/images/logo/logo.png" 
-                alt="MediCare Solutions" 
+                alt="ngoCare solutions" 
                 className="footer-logo-icon"
                 width={40}
                 height={40}
               />
-              <span className="footer-logo-text">MediCare Solutions</span>
+              <span className="footer-logo-text">ngoCare solutions</span>
             </div>
             <p className="footer-description">
               Solusi alat kesehatan terpercaya untuk keluarga Anda. 
@@ -114,8 +114,8 @@ const Footer = () => {
               </div>
               <div>
                 <p className="footer-contact-text">
-                  Jl. Kesehatan No. 123<br />
-                  Jakarta Pusat 10110
+                  Jln. Mayor Oking Jayaatmaja No 107<br />
+                  Citeureup. Bogor 16810
                 </p>
               </div>
             </div>
@@ -125,10 +125,10 @@ const Footer = () => {
               </div>
               <div>
                 <a
-                  href="tel:+622112345678"
+                  href="tel:+62895325378235"
                   className="footer-contact-link"
                 >
-                  +62 21 1234 5678
+                  +62 895 3253 78235
                 </a>
               </div>
             </div>
@@ -138,10 +138,10 @@ const Footer = () => {
               </div>
               <div>
                 <a
-                  href="mailto:info@medicare-solutions.com"
+                  href="mailto:info@ngocare-solutions.com"
                   className="footer-contact-link"
                 >
-                  info@medicare-solutions.com
+                  info@ngocare-solutions.com
                 </a>
               </div>
             </div>
@@ -152,7 +152,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p className="footer-copyright">
-              © 2024 MediCare Solutions. All rights reserved.
+              © 2024 ngoCare solutions. All rights reserved.
             </p>
             <div className="footer-bottom-links">
               <Link href="/privacy" className="footer-bottom-link">

@@ -54,19 +54,19 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: 'Telepon',
-      details: ['+62 21 1234 5678', '+62 812 3456 7890'],
-      action: 'tel:+622112345678'
+      details: ['+62 895 3253 78235'],
+      action: 'tel:+62895325378235'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@medicare-solutions.com', 'sales@medicare-solutions.com'],
-      action: 'mailto:info@medicare-solutions.com'
+      details: ['info@ngocare-solutions.com'],
+      action: 'mailto:info@ngocare-solutions.com'
     },
     {
       icon: MapPin,
       title: 'Alamat',
-      details: ['Jl. Kesehatan No. 123', 'Jakarta Pusat 10110', 'Indonesia'],
+      details: ['Jln. Mayor Oking Jayaatmaja No 107', 'Citeureup. Bogor 16810', 'Indonesia'],
       action: 'https://maps.google.com/?q=Jl+Kesehatan+No+123+Jakarta+Pusat'
     },
     {
@@ -265,7 +265,7 @@ export default function ContactPage() {
                   </h3>
                   <div className="contact-quick-actions-list">
                     <a
-                      href="https://wa.me/6281234567890"
+                      href="https://wa.me/62895325378235"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="contact-quick-action-button contact-quick-action-whatsapp"
@@ -274,7 +274,7 @@ export default function ContactPage() {
                       <span>Chat WhatsApp</span>
                     </a>
                     <a
-                      href="tel:+622112345678"
+                      href="tel:+62895325378235"
                       className="contact-quick-action-button contact-quick-action-phone"
                     >
                       <Phone className="contact-quick-action-icon" />
@@ -316,18 +316,18 @@ export default function ContactPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="MediCare Solutions Location"
+                  title="ngoCare solutions Location"
                 />
               </div>
               <div className="contact-map-info">
-                <h3 className="contact-map-info-title">
-                  MediCare Solutions
-                </h3>
-                <p className="contact-map-info-text">
-                  Jl. Kesehatan No. 123, Jakarta Pusat 10110, Indonesia
-                </p>
+                  <h3 className="contact-map-info-title">
+                    ngoCare solutions
+                  </h3>
+                  <p className="contact-map-info-text">
+                    Jln. Mayor Oking Jayaatmaja No 107, Citeureup. Bogor 16810
+                  </p>
                 <a
-                  href="https://maps.google.com/?q=Jl+Kesehatan+No+123+Jakarta+Pusat"
+                  href="https://maps.google.com/?q=Jln+Mayor+Oking+Jayaatmaja+No+107+Citeureup+Bogor"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-map-info-link"

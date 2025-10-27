@@ -99,7 +99,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           </Link>
           <button
             onClick={() => {
-              const whatsappUrl = `https://wa.me/6281234567890?text=Halo, saya tertarik dengan produk ${product.name} (${formatPrice(product.price)}). Apakah masih tersedia?`;
+              const whatsappUrl = `https://wa.me/62895325378235?text=Halo, saya tertarik dengan produk ${product.name} (${formatPrice(product.price)}). Apakah masih tersedia?`;
               window.open(whatsappUrl, '_blank');
             }}
             disabled={!product.inStock}

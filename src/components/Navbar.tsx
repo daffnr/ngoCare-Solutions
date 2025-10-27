@@ -24,12 +24,12 @@ const Navbar = () => {
           <Link href="/" className="navbar-logo">
             <img 
               src="/images/logo/logo.png" 
-              alt="MediCare Solutions" 
+              alt="ngoCare solutions" 
               className="logo-icon"
               width={40}
               height={40}
             />
-            <span className="logo-text">MediCare Solutions</span>
+            <span className="logo-text">ngoCare solutions</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -49,11 +49,11 @@ const Navbar = () => {
           <div className="navbar-contact">
             <div className="contact-item">
               <Phone className="contact-icon" />
-              <span>+62 21 1234 5678</span>
+              <span>+62 895 3253 78235</span>
             </div>
             <div className="contact-item">
               <Mail className="contact-icon" />
-              <span>info@medicare-solutions.com</span>
+              <span>info@ngocare-solutions.com</span>
             </div>
           </div>
 
@@ -94,11 +94,11 @@ const Navbar = () => {
                 <div className="mobile-contact-content">
                   <div className="mobile-contact-item">
                     <Phone className="mobile-contact-icon" />
-                    <span>+62 21 1234 5678</span>
+                    <span>+62 895 3253 78235</span>
                   </div>
                   <div className="mobile-contact-item">
                     <Mail className="mobile-contact-icon" />
-                    <span>info@medicare-solutions.com</span>
+                    <span>info@ngocare-solutions.com</span>
                   </div>
                 </div>
               </div>

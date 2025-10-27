@@ -67,7 +67,7 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="about-hero-title">
-                Tentang MediCare Solutions
+                Tentang ngoCare solutions
               </h1>
               <p className="about-hero-description">
                 Mitra terpercaya dalam menyediakan solusi alat kesehatan berkualitas tinggi 
@@ -92,7 +92,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="about-story-text">
                   <p>
-                    MediCare Solutions didirikan pada tahun 2014 dengan visi sederhana namun mulia: 
+                    ngoCare solutions didirikan pada tahun 2014 dengan visi sederhana namun mulia: 
                     membuat alat kesehatan berkualitas tinggi dapat diakses oleh semua kalangan masyarakat Indonesia.
                   </p>
                   <p>

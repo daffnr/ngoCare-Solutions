@@ -61,7 +61,7 @@ export default function ProductDetailPage() {
 
   const handleWhatsAppOrder = () => {
     const message = `Halo, saya tertarik dengan produk ${product.name} (${formatPrice(product.price)}). Apakah masih tersedia? Saya ingin memesan ${quantity} unit.`;
-    const whatsappUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/62895325378235?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

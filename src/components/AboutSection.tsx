@@ -45,10 +45,10 @@ const AboutSection = () => {
             <div className="about-content">
               <div>
                 <h2 className="about-title">
-                  Tentang MediCare Solutions
+                  Tentang ngoCare solutions
                 </h2>
                 <p className="about-description">
-                  Sejak didirikan pada tahun 2014, MediCare Solutions telah menjadi 
+                  Sejak didirikan pada tahun 2014, ngoCare solutions telah menjadi 
                   mitra terpercaya dalam menyediakan alat kesehatan berkualitas tinggi 
                   untuk masyarakat Indonesia. Kami berkomitmen memberikan solusi terbaik 
                   untuk kebutuhan medis keluarga Anda.

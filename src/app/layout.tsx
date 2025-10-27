@@ -6,32 +6,32 @@ import '@/styles/mobile-responsiveness.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'MediCare Solutions - Solusi Alat Kesehatan Terpercaya',
-  description: 'MediCare Solutions menyediakan berbagai macam alat kesehatan berkualitas tinggi untuk kebutuhan medis keluarga Anda. Kursi roda, tensimeter, walker, dan produk kesehatan lainnya dengan harga kompetitif.',
-  keywords: 'alat kesehatan, kursi roda, tensimeter, walker, oksimeter, termometer, alat medis, kesehatan, MediCare Solutions',
-  authors: [{ name: 'MediCare Solutions' }],
-  creator: 'MediCare Solutions',
-  publisher: 'MediCare Solutions',
+  title: 'ngoCare solutions - Solusi Alat Kesehatan Terpercaya',
+  description: 'ngoCare solutions menyediakan berbagai macam alat kesehatan berkualitas tinggi untuk kebutuhan medis keluarga Anda. Kursi roda, tensimeter, walker, dan produk kesehatan lainnya dengan harga kompetitif.',
+  keywords: 'alat kesehatan, kursi roda, tensimeter, walker, oksimeter, termometer, alat medis, kesehatan, ngoCare solutions',
+  authors: [{ name: 'ngoCare solutions' }],
+  creator: 'ngoCare solutions',
+  publisher: 'ngoCare solutions',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://medicare-solutions.com'),
+  metadataBase: new URL('https://ngocare-solutions.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'MediCare Solutions - Solusi Alat Kesehatan Terpercaya',
-    description: 'MediCare Solutions menyediakan berbagai macam alat kesehatan berkualitas tinggi untuk kebutuhan medis keluarga Anda.',
-    url: 'https://medicare-solutions.com',
-    siteName: 'MediCare Solutions',
+    title: 'ngoCare solutions - Solusi Alat Kesehatan Terpercaya',
+    description: 'ngoCare solutions menyediakan berbagai macam alat kesehatan berkualitas tinggi untuk kebutuhan medis keluarga Anda.',
+    url: 'https://ngocare-solutions.com',
+    siteName: 'ngoCare solutions',
     images: [
       {
         url: '/images/og-image.jpeg',
         width: 1200,
         height: 630,
-        alt: 'MediCare Solutions - Alat Kesehatan Terpercaya',
+        alt: 'ngoCare solutions - Alat Kesehatan Terpercaya',
       },
     ],
     locale: 'id_ID',
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MediCare Solutions - Solusi Alat Kesehatan Terpercaya',
-    description: 'MediCare Solutions menyediakan berbagai macam alat kesehatan berkualitas tinggi untuk kebutuhan medis keluarga Anda.',
+    title: 'ngoCare solutions - Solusi Alat Kesehatan Terpercaya',
+    description: 'ngoCare solutions menyediakan berbagai macam alat kesehatan berkualitas tinggi untuk kebutuhan medis keluarga Anda.',
     images: ['/images/og-image.jpeg'],
   },
   robots: {
