@@ -207,6 +207,7 @@
   grid-template-columns: 1fr;
   gap: 1.5rem;
   width: 100%;
+  align-items: stretch;
 }
 
 /* Mobile - 1 column dengan spacing yang baik */
@@ -233,6 +234,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
+}
+
+/* Ensure grid children stretch full height */
+.products-grid-layout > * {
+  height: 100%;
 }
 
 .products-list-layout {
