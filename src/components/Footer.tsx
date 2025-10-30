@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
 import '@/styles/components/Footer.css';

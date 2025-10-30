@@ -200,4 +200,4 @@ Catatan:
 
 ---
 
-**MediCare Solutions** - Solusi Alat Kesehatan Terpercaya untuk Keluarga Anda
+**ngoCare Solutions** - Solusi Alat Kesehatan Terpercaya untuk Keluarga Anda
