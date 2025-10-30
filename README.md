@@ -1,6 +1,6 @@
-# MediCare Solutions - Website Company Semi E-commerce
+# ngoCare solutions — Website Company Profile Alat Kesehatan
 
-Website company profile sekaligus katalog produk untuk penjualan alat kesehatan menggunakan Next.js 14, Tailwind CSS, dan TypeScript.
+Website company profile dan katalog produk alat kesehatan menggunakan Next.js 16, TypeScript, dan CSS modular.
 
 ## 🚀 Fitur Utama
 
@@ -15,9 +15,9 @@ Website company profile sekaligus katalog produk untuk penjualan alat kesehatan 
 
 ## 🛠️ Teknologi yang Digunakan
 
-- **Next.js 14** - React framework dengan App Router
+- **Next.js 16** - App Router
 - **TypeScript** - Type safety dan better development experience
-- **Tailwind CSS** - Utility-first CSS framework
+- **CSS Modules** - Styling terstruktur per komponen
 - **Framer Motion** - Animation library
 - **Lucide React** - Icon library
 
@@ -25,16 +25,18 @@ Website company profile sekaligus katalog produk untuk penjualan alat kesehatan 
 
 1. Clone repository ini
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Jalankan development server:
+
    ```bash
    npm run dev
    ```
 
-4. Buka [http://localhost:3000](http://localhost:3000) di browser
+4. Buka `http://localhost:3000` di browser
 
 ## 🏗️ Struktur Project
 
@@ -43,7 +45,7 @@ src/
 ├── app/                    # App Router pages
 │   ├── about/             # About page
 │   ├── contact/           # Contact page
-│   ├── products/          # Products pages
+│   ├── products/          # Products pages (list & detail)
 │   │   └── [slug]/        # Dynamic product detail
 │   ├── globals.css        # Global styles
 │   ├── layout.tsx         # Root layout
@@ -68,6 +70,7 @@ src/
 ## 📱 Halaman yang Tersedia
 
 ### 1. Home Page (`/`)
+
 - Hero section dengan CTA
 - Produk unggulan (3-6 produk)
 - Section tentang kami
@@ -75,6 +78,7 @@ src/
 - Footer dengan informasi kontak
 
 ### 2. About Page (`/about`)
+
 - Profil singkat perusahaan
 - Visi dan misi
 - Nilai-nilai perusahaan
@@ -82,6 +86,7 @@ src/
 - Tim dan foto kantor
 
 ### 3. Products Page (`/products`)
+
 - Grid daftar semua produk
 - Filter berdasarkan kategori
 - Pencarian produk
@@ -89,6 +94,7 @@ src/
 - View mode (grid/list)
 
 ### 4. Product Detail Page (`/products/[slug]`)
+
 - Gambar produk dengan thumbnail
 - Deskripsi lengkap
 - Spesifikasi produk
@@ -96,19 +102,20 @@ src/
 - Produk terkait
 
 ### 5. Contact Page (`/contact`)
+
 - Form kontak
 - Informasi perusahaan
-- Google Maps embed
+- Peta (embed dinonaktifkan pada konfigurasi default)
 - FAQ section
 - Quick actions (WhatsApp, Telepon)
 
 ## 🎨 Desain dan Styling
 
-- **Warna Dominan**: Putih, Biru Muda (#2563eb), Abu-abu
-- **Typography**: Inter font family
-- **Responsive**: Mobile-first approach
-- **Animasi**: Smooth transitions dengan Framer Motion
-- **Icons**: Lucide React icons
+- Warna: netral gelap, aksen biru muda (#60a5fa)
+- Typography: Inter
+- Responsive: Mobile-first
+- Animasi: Framer Motion
+- Icons: Lucide React
 
 ## 📊 Data Produk
 
@@ -136,65 +143,43 @@ interface Product {
 ## 🔧 Konfigurasi
 
 ### Environment Variables
-Buat file `.env.local` untuk konfigurasi:
 
-```env
-NEXT_PUBLIC_SITE_URL=https://medicare-solutions.com
-NEXT_PUBLIC_WHATSAPP_NUMBER=6281234567890
-NEXT_PUBLIC_PHONE_NUMBER=+622112345678
-NEXT_PUBLIC_EMAIL=info@medicare-solutions.com
-```
+Jika diperlukan, buat `.env.local` untuk konfigurasi tambahan (opsional).
 
 ### Google Maps
-Untuk mengaktifkan Google Maps di halaman kontak, ganti URL embed di `src/app/contact/page.tsx` dengan koordinat yang sesuai.
+
+Secara default, `iframe` Google Maps dinonaktifkan (src kosong). Untuk mengaktifkan, isi `src` dengan URL embed lokasi perusahaan.
 
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
+
 1. Push code ke GitHub
 2. Connect repository ke Vercel
 3. Deploy otomatis
 
 ### Manual Deployment
+
 ```bash
 npm run build
 npm start
 ```
 
-## 📈 SEO Features
+## 📈 SEO
 
-- Meta tags yang lengkap
-- Open Graph tags
-- Twitter Card tags
-- Sitemap.xml otomatis
-- Robots.txt
-- Structured data (JSON-LD)
-- Responsive images
-- Fast loading
+- Meta tags dasar dan sitemap (`src/app/sitemap.ts`)
 
-## 🛡️ Security
+## 🛡️ Catatan Keamanan
 
-- Input validation
-- XSS protection
-- CSRF protection
-- Secure headers
-- Content Security Policy
+- Validasi basic pada form contoh
 
 ## 📱 Mobile Optimization
 
-- Responsive design
-- Touch-friendly interface
-- Fast loading
-- Optimized images
-- Mobile navigation
+- Responsive layout & images
 
 ## 🔍 Performance
 
-- Image optimization
-- Code splitting
-- Lazy loading
-- Caching strategies
-- Bundle optimization
+- Lazy-loading aset dan animasi ringan
 
 ## 📝 License
 
@@ -208,12 +193,10 @@ MIT License - lihat file LICENSE untuk detail.
 4. Push ke branch
 5. Create Pull Request
 
-## 📞 Support
+Catatan:
 
-Untuk pertanyaan atau dukungan, hubungi:
-- Email: info@medicare-solutions.com
-- WhatsApp: +62 812 3456 7890
-- Telepon: +62 21 1234 5678
+- Ikon sosial (Facebook/Instagram/Twitter) bersifat visual saja (non-clickable) pada konfigurasi default.
+- Tautan `tel:` menggunakan nomor demo di atas.
 
 ---
 

@@ -116,7 +116,7 @@ const FeatureSection = () => {
                 Konsultasi WhatsApp
               </a>
               <a
-                href="tel:+622112345678"
+                href="tel:+62812345678"
                 className="feature-cta-button feature-cta-button-secondary"
               >
                 Hubungi Sekarang

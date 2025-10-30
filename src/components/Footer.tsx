@@ -25,25 +25,22 @@ const Footer = () => {
             </p>
             <div className="footer-social">
               <a
-                href="https://facebook.com/medicare-solutions"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(e) => e.preventDefault()}
                 className="social-link"
               >
                 <Facebook className="social-icon" />
               </a>
               <a
-                href="https://instagram.com/medicare_solutions"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(e) => e.preventDefault()}
                 className="social-link"
               >
                 <Instagram className="social-icon" />
               </a>
               <a
-                href="https://twitter.com/medicare_sol"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(e) => e.preventDefault()}
                 className="social-link"
               >
                 <Twitter className="social-icon" />
@@ -125,10 +122,10 @@ const Footer = () => {
               </div>
               <div>
                 <a
-                  href="tel:+62895325378235"
+                  href="tel:+62812345678"
                   className="footer-contact-link"
                 >
-                  +62 895 3253 78235
+                  +62812345678
                 </a>
               </div>
             </div>

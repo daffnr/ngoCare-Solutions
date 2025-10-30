@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="navbar-contact">
             <div className="contact-item">
               <Phone className="contact-icon" />
-              <span>+62 895 3253 78235</span>
+              <span>+62812345678</span>
             </div>
             <div className="contact-item">
               <Mail className="contact-icon" />
@@ -94,7 +94,7 @@ const Navbar = () => {
                 <div className="mobile-contact-content">
                   <div className="mobile-contact-item">
                     <Phone className="mobile-contact-icon" />
-                    <span>+62 895 3253 78235</span>
+                    <span>+62812345678</span>
                   </div>
                   <div className="mobile-contact-item">
                     <Mail className="mobile-contact-icon" />

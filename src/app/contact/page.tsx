@@ -54,8 +54,8 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: 'Telepon',
-      details: ['+62 895 3253 78235'],
-      action: 'tel:+62895325378235'
+      details: ['+62812345678'],
+      action: 'tel:+62812345678'
     },
     {
       icon: Mail,
@@ -274,7 +274,7 @@ export default function ContactPage() {
                       <span>Chat WhatsApp</span>
                     </a>
                     <a
-                      href="tel:+62895325378235"
+                      href="tel:+62812345678"
                       className="contact-quick-action-button contact-quick-action-phone"
                     >
                       <Phone className="contact-quick-action-icon" />
